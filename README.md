@@ -1,43 +1,42 @@
 # [SUBSCRIBE THIS FACEBOOK GROUP WHERE I ADD NEWS AND UPDATE](https://www.facebook.com/groups/mathfordatascience/)
 
-# March 2019 Machine Learning Study Path
-## A complete ML study path, focused on TensorFlow and Scikit-Learn
+# Camino de aprendizaje en Machine Learning 2019
+## Una guia completa de aprendizaje de ML, enfocado en TensorFlow y Scikit-Learn
 
-This repository is intended to provide a **complete and organic learning path** to getting started with Machine Learning.
-You will understand both theory and be able to apply it in practice, with hands-on projects.
+Este repositorio tiene como objetivo proveer una *guia completa y organica* para empezar con Machine Learning.
 
-It does not require any previous knowledge, but being confident with programming and high school math is necessary to understand and implement Machine Learning concepts.
+No requiere conocimiento previo, pero tener base en programacion y matematica es necesario para entender e implementar creativamente los conceptos de Machine Learning.
 
-I **strongly recommend** to buy [**this**](https://www.amazon.it/Hands-Machine-Learning-Scikit-Learn-Tensorflow/dp/1491962291/ref=pd_sbs_14_1/260-9599700-1757805?_encoding=UTF8&pd_rd_i=1491962291&pd_rd_r=23993915-4513-11e9-ad92-43c54a5a8a65&pd_rd_w=QNr5b&pd_rd_wg=Si7Nj&pf_rd_p=37660d27-94f1-4ebe-be01-184b332a9b15&pf_rd_r=SF0KMBGABMY3T790JY7Z&psc=1&refRID=SF0KMBGABMY3T790JY7Z) phenomenal book: "Hands-On Machine Learning with Scikit-Learn and TensorFlow" by  OreillY, which inspired me and has driven most of the organization and hierarchy of the content listed below.
+Recomiendo **fuertemente** comprar [**este libro**](https://www.amazon.it/Hands-Machine-Learning-Scikit-Learn-Tensorflow/dp/1491962291/ref=pd_sbs_14_1/260-9599700-1757805?_encoding=UTF8&pd_rd_i=1491962291&pd_rd_r=23993915-4513-11e9-ad92-43c54a5a8a65&pd_rd_w=QNr5b&pd_rd_wg=Si7Nj&pf_rd_p=37660d27-94f1-4ebe-be01-184b332a9b15&pf_rd_r=SF0KMBGABMY3T790JY7Z&psc=1&refRID=SF0KMBGABMY3T790JY7Z): "Hands-On Machine Learning with Scikit-Learn and TensorFlow" by  OreillY, que ha inspirado a muchos a a entender este gran mundo y los temas que se detallan a continuacion. 
 
-Apart from this, **everything** listed here is open source and free, most of it coming from the world-renowned universities and open source associations. 
+Ademas, **todo** lo listado aca es open source y gratis, la mayoria de universidades reconocidas y asociaciones que aportan al conocimiento de estos temas.
 
-When we learn something new, especially if wide and complex, it is necessary to avoid confusion, so 
-I tried to create the next steps of the path preferring contents from the same context and authors, when possible.
-When not possible, I collected both theory and examples, as well as some pointers to resources like "best practices for _______".
+Cuando aprendes algo nuevo, sobre todo algo complejo, es necesario evitar confusion, por eso es que se ha craedo un **camino de aprendizaje** en secciones que el Autor del libro recomienda. En caso no de haber encontrado, se junta teoria y ejemplos, como tambien articulos clave bajo el titulo **"best practices para______"**
 
-#### I organized the Path in 4 sections:
+Algunos conceptos estan en **ingles** dado que asi es como se comunica en todos lados.
 
-#### Prerequisites
+#### Se organiza en 4 etapas:
+
+#### Pre requisitos.
 - Python
 - Jupyter Notebook
-- The Math you need
-- The Machine Learning landscape
+- La matematica que necesitas
+- Idea general de The Machine Learning 
 
-#### Machine learning with Scikit-Learn
-- Why Scikit-Learn?
-- End-to-End Machine Learning project 
-- Linear Regression 
+#### Machine learning CON Scikit-Learn
+- Porque Scikit-Learn?
+- Proyect de Machine Learning  End-to-End  
+- Regresion lineal 
 - Classification
 - Training models
 - Support Vector Machines
-- Decision Trees
+- Arboles de decision
 - Ensemble Learning and Random Forest 
 - Unsupervised Learning --- **new**
-- Wrapping up and looking forward
+- Wrapping up y looking forward
 
-#### Neural Networks with TensorFlow
-- Why TensorFlow?
+#### Neural Networks con TensorFlow
+- porque TensorFlow?
 - Up and Running with TensorFlow
 - ANN - Artificial Neural Networks 
 - CNN - Convolutional Neural Networks
@@ -45,43 +44,46 @@ When not possible, I collected both theory and examples, as well as some pointer
 - Training Networks: Best practices 
 - AutoEncoders
 - Reinforcement Learning
-- Next steps
+- Proximos pasos
 
-#### Utilities
+#### Usos
 - Machine Learning Projects 
-- Data Science Tools
-- Blogs / Youtube Channels / Websites worth taking a look!
+- Herramientas para Data Science 
+- Blogs / Youtube Channels / Websites que merecen ver!
 
 
-So let's get started!
+Empecemos!
 
 ---------------------------------------------------------------
 
 ## Prerequisites
 
 ### Python
-According to Sun Tzu:
-> If you don't know Python, learn it yesterday!
+segun  Sun Tzu:
+> Si no sabes python, aprendelo ayer!
 
-Python is one of the most used and loved programming languages, and it's necessary to get things done in the Machine Learning field. Like most of the frameworks of the bigger Data Science field, TensorFlow is married with Python and Scikit-Learn is written in Python.  
+Python es uno de los lenguajes mas usados y preferidos del mundo del desarrollo, porque te permite hacer muchas cosas, entre ellas trabajar en el campo de Machine Learning. Como muchos de los frameworks de la ciencia de datos, TensorFlow esta relacionado con Python, y Scikit-Learn esta escrito en Python.
 
-First, let's [install Python 3](https://realpython.com/installing-python/) on your machine!
 
-We are ready to start our journey! 
+Primer,  [instala Python 3](https://realpython.com/installing-python/) en tu computadora!
 
-If you don't know the basics of Python, just start from [here](https://pythonprogramming.net/introduction-learn-python-3-tutorials/).\
-Else if you know the syntax and you want to have a more solid Python background (recommended) take this Intermediate Python Course from [here](https://pythonprogramming.net/introduction-intermediate-python-tutorial/).\
-If you are looking for tons of exercises to get your hands dirty and get experience with Python, check [here](https://www.w3resource.com/python-exercises/) and [here](https://www.practicepython.org/).
+Estamos listos para empezar el viaje!
 
-Once you're familiar with Python, take a look at [Numpy](https://docs.scipy.org/doc/numpy-1.13.0/user/whatisnumpy.html), an important module for math operations, that allows you to import in Python the [Tensor](https://www.kdnuggets.com/2018/05/wtf-tensor.html) data type, which is the most used in ML (especially when dealing with Neural Nets).
-A tensor [is not a matrix!](https://medium.com/@quantumsteinke/whats-the-difference-between-a-matrix-and-a-tensor-4505fbdc576c)
-This is an awesome [Numpy Tutorial](http://cs231n.github.io/python-numpy-tutorial/).
+**Si no tienes conocimientos en Python. Empieza [aqui](https://pythonprogramming.net/introduction-learn-python-3-tutorials/).\
+Si sabes la sintaxis pero quieres consolidar tus conocimientos (recommended) toma este curso Intermedio de Python de [aqui](https://pythonprogramming.net/introduction-intermediate-python-tutorial/).\
+**Si quieres ensuciarte las manos y jugar con python, hecha un vistazo a [esto](https://www.w3resource.com/python-exercises/) y [here](https://www.practicepython.org/).
 
-I also recommend you to install the [Pycharm Community Edition](https://www.jetbrains.com/pycharm/download/#section=windows), a complete IDE for Python development, and [set a new Python virtual environment](https://www.jetbrains.com/help/pycharm/creating-virtual-environment.html) for your experiments.
+Una vez que estes familiarizacon Python, revisa [Numpy](https://docs.scipy.org/doc/numpy-1.13.0/user/whatisnumpy.html), un modulo importante sobre operaciones matematicas, que permite importar los datos en Python en el [Tensor](https://www.kdnuggets.com/2018/05/wtf-tensor.html), que es muy usado en ML (ESPECIALMENTE CUANDO TRABAJAS CON REDES NEURONALES).
+Un **tensor** [no es una matriz!](https://medium.com/@quantumsteinke/whats-the-difference-between-a-matrix-and-a-tensor-4505fbdc576c)
+Este es un tutorial excelente de [Numpy](http://cs231n.github.io/python-numpy-tutorial/).
+
+Tambien se recomienda instalar [Pycharm Community Edition](https://www.jetbrains.com/pycharm/download/#section=windows), un IDE para el ambiente de Python, y [setea un ambiente virtual de python](https://www.jetbrains.com/help/pycharm/creating-virtual-environment.html) para tus experimentos.
 
 ### Jupyter Notebook
-Directly from [here](https://jupyter.org/): "The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, and much more."
-Working with data means -> a lot of expriments. And to document experiments, and organize them in a valuable way to get insights, you definitely need to use Jupyter Notebook during your journey. [Why](http://blendedlearning.blogs.brynmawr.edu/what-are-jupyter-notebooks-why-would-i-want-to-use-them/)?
+
+Directamente de [aca](https://jupyter.org/): "El cuaderno Jupyter es una aplicación web de código abierto que le permite crear y compartir documentos que contienen código en vivo, ecuaciones, visualizaciones y texto narrativo. Los usos incluyen: limpieza y transformación de datos, simulación numérica, modelado estadístico, visualización de datos, aprendizaje automático y mucho más."
+
+Trabajar con datos significa-> MUCHOS EXPERIMENTOS. Y para documentar y organizarlos de una manera practica y facil, mejor usar **jupyter nootebooks** [porque](http://blendedlearning.blogs.brynmawr.edu/what-are-jupyter-notebooks-why-would-i-want-to-use-them/)?
 
 
 ### The math you need
