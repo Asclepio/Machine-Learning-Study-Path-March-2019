@@ -1,4 +1,3 @@
-# [SUBSCRIBE THIS FACEBOOK GROUP WHERE I ADD NEWS AND UPDATE](https://www.facebook.com/groups/mathfordatascience/)
 
 # Camino de aprendizaje en Machine Learning 2019
 ## Una guia completa de aprendizaje de ML, enfocado en TensorFlow y Scikit-Learn
