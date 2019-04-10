@@ -411,3 +411,8 @@ Some of the extensions i'm adding here during the next weeks are:
 Later on, i'll do an entire guide on Cloud Computing with AWS and Azure!
 
 ### ... Coming Very Soon! Stay tuned :)
+
+
+# MATHS for ML 
+GitHub : https://mml-book.github.io/?fbclid=IwAR0vM2I-Io03SnOlx-3Wc7TvTzTMo-t7OmO7QQtrEaVgBN7fgqSa9CNAdbY
+Book (PDF) : https://mml-book.github.io/book/mml-book.pdf?fbclid=IwAR00CD2TaZdzYA88k6HzkjafRQhMte5YzU7LWbkKGNRY6v3M6yy7ItzT9Q8
